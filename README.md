@@ -1,23 +1,72 @@
-# Project1_comp584
-Add a two column component to your email with some new content.
-Add a three column component to your email with some new content.
-Add responsiveness to your multi-column layout
-Make the columns stack on mobile 
-Adjust text size also. 
-Add Interactivity to button(s) and link(s)
-Add animation using keyframes. (use properties other than opacity and scale)
-Apply the checked box technique to add some more interactivity to your email
-Use radio buttons, labels, and divs
-Use the resource tools introduced.
-Send yourself your email code to see what a user will receive
-Interact with it and see how they work in those different email clients. 
-Make notes of what worked and what didn’t based on the client.
-Report your findings on a separate file (.pdf format) add it to an assets folder in your repo. 
-If needed revise content to set up your own email campaign. 
-Some example of what the email campaign could be:
-Recommendation to visit a product or service company website
-Grab prospective employers interest to visit your linkedIn/resume page. 
-If you have other ideas check with the professor.
-No more placeholder images or lorem ipsum
-Submittals your github repo link.
-Add a readme file. In it put the location of your hosted site.
+https://alexander-boutselis.github.io/Project1_comp584/
+
+# Project: Email Campaign
+
+**Due:** 10/10/2025  
+**Points:** 100  
+**Submission:** Website URL  
+
+---
+
+## Requirements
+
+### 1. Layout Components
+- Add a two-column component with new content.  
+- Add a three-column component with new content.  
+- Make the layout responsive:
+  - Columns should stack on mobile.
+  - Adjust text size for smaller screens.
+
+---
+
+### 2. Interactivity
+- Add interactivity to buttons and links.  
+- Use radio buttons, labels, and divs for interactivity.  
+- Apply the checked box technique to create dynamic behaviors.
+
+---
+
+### 3. Animation
+- Add animation using CSS keyframes.  
+  - Use properties other than opacity and scale.  
+  - Example ideas: rotation, color changes, movement, etc.  
+- Include animations that trigger:
+  - On hover,  
+  - On page load, or  
+  - When checked (using interactive elements).
+
+---
+
+### 4. Testing and Responsiveness
+- Send the email to yourself and test it in different clients.  
+- Interact with it to confirm animations and interactivity work.  
+- Note what works and what does not based on each email client.
+
+---
+
+### 5. Report
+- Write a report (.pdf) summarizing:
+  - What worked well.  
+  - What did not work in certain email clients.  
+- Place this report in an **assets** folder within your repository.
+
+---
+
+### 6. Submission
+- Submit your GitHub repository link.  
+- Include a **README.md** file with:
+  - The location of your hosted site (live preview link).
+
+---
+
+## Project Ideas
+- Recommendation to visit a product or service website.  
+- Campaign to grab an employer’s attention and direct them to your LinkedIn or résumé page.  
+- Other creative ideas may be used with professor approval.
+
+---
+
+## Additional Notes
+- No placeholder images or lorem ipsum text allowed.  
+- Use meaningful, original content.  
+- Resource tools introduced in class must be utilized.
