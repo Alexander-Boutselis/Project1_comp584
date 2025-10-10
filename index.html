@@ -1,255 +1,202 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <title></title>
-                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-                <style type="text/css">
-                /* CLIENT-SPECIFIC STYLES */
-                body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-                table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
-                img { -ms-interpolation-mode: bicubic; }
+<html lang="en">
+  <head>
+    <title>Project 1</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <style type="text/css">
+      /* CLIENT-SPECIFIC STYLES */
+      body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+      table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+      img { -ms-interpolation-mode: bicubic; }
 
-                /* RESET STYLES */
-                img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
-                table { border-collapse: collapse !important; }
-                body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
+      /* RESET STYLES */
+      img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+      table { border-collapse: collapse !important; }
+      body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
 
-                /* iOS BLUE LINKS */
-                a[x-apple-data-detectors] {
-                    color: inherit !important;
-                    text-decoration: none !important;
-                    font-size: inherit !important;
-                    font-family: inherit !important;
-                    font-weight: inherit !important;
-                    line-height: inherit !important;
-                }
+      /* iOS BLUE LINKS */
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
 
-                /* GMAIL BLUE LINKS */
-                u + #body a {
-                    color: inherit;
-                    text-decoration: none;
-                    font-size: inherit;
-                    font-family: inherit;
-                    font-weight: inherit;
-                    line-height: inherit;
-                }
+      /* GMAIL BLUE LINKS */
+      u + #body a {
+        color: inherit;
+        text-decoration: none;
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+      }
 
-                /* SAMSUNG MAIL BLUE LINKS */
-                #MessageViewBody a {
-                    color: inherit;
-                    text-decoration: none;
-                    font-size: inherit;
-                    font-family: inherit;
-                    font-weight: inherit;
-                    line-height: inherit;
-                }
+      /* SAMSUNG MAIL BLUE LINKS */
+      #MessageViewBody a {
+        color: inherit;
+        text-decoration: none;
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+      }
 
-                /* Universal styles for links and stuff */
+      /*Responsive Styles*/
+      @media screen and (max-width: 600px){
 
+        .mobile{
+          width: 100% !important;
+        } 
 
-                /********Radio Button********/
-                /*Hide all blocks by default*/
-                .content-block{
-                  display: none;
-                }
+        .block {
+          display: block; 
+          width: 100% !important;
+        }
 
-                /********Show Selected Block********/
-                /*Pastafarian Block*/
-                #pastafarian:checked ~ .pasta-block{
-                  display: block;
-                }
-                /*Discordian Block*/
-                #discordianism:checked ~ .discord-block{
-                  display: block;
-                }
-                /*Dudeism Block*/
-                #dudeism:checked ~ .dude-block{
-                  display: block;
-                }
+      }
 
-                </style>
-                <meta charset="UTF-8">
-            <title>Exploring Religeon Newsletter</title>
-        </head>
+    </style>
+    <meta charset="UTF-8">
+  </head>
 
-        <body style="margin:0; padding:0; font-family:Arial, sans-serif; background-color:#f4f4f4;">
+  <body style="margin:0; padding:0; font-family:Arial, sans-serif; background-color:#f4f4f4;">
 
-  <!-- Outer Wrapper -->
+<!-- Outer Wrapper ----------------------------------------------->
   <table role="presentation" width="100%">
     <tr>
-      <td align="center" style="padding:30px; background-color:#f4f4f4; ">
+    <td align="center" style="padding:30px; background-color:#f4f4f4; ">
 
-        <table role="presentation" width="100%" style="background:#ffffff; max-width:600px;">
-          <tr>
-            <td align="center">
 
-              <!-- Radio Buttons -->
-              <input type="radio" id="pastafarian" name="belief" checked>
-              <label for="pastafarian">Pastafarian</label>
-    
-              <input type="radio" id="discordianism" name="belief">
-              <label for="discordianism">Discordianism</label>
-    
-              <input type="radio" id="dudeism" name="belief">
-              <label for="dudeism">Dudeism</label>
-        
+  <!-- Inner Wrapper ------------------------------------------->
+      <table align="center" role="presentation" width="100%" style="background:#ffffff; max-width:600px;">
+        <tr>
+        <td>
 
-            <!-------------------------- Pastafarian Content Blocks -------------------------->
-            <div class="content-block pasta-block">
-              <table role="pastafarian" width="100%">
+          <table width="100%"><!-- Email Content -->
+            <tr>
+            <td align="center" style="padding:20px;">
                 <!-- Logo -->
-                <tr>
-                  <td align="center" style="padding:20px;">
-                    <img src="images/Touched_by_His_Noodly_Appendage_HD.jpg" 
+              <img src="images/Touched_by_His_Noodly_Appendage_HD.jpg" 
                          alt="Flying Spaghetti Monster Logo" 
                          style="width:100%; max-width:600px; display:block;">
-                  </td>
-                </tr>
+            </td>
+            </tr>
 
-                <!-- Headline -->
-                <tr>
-                  <td align="center" style="padding:20px; font-size:26px; color:#a52a2a;">
-                    Praise Be to His Noodly Appendages
-                  </td>
-                </tr>
+            <tr>
+            <td align="center" style="padding:20px; font-size:26px; color:#a52a2a;">
+            <!-- Headline -->
+                        Praise Be to His Noodly Appendages
+            </td>
+            </tr>
 
-                <!-- Hero Image -->
+            <tr>
+            <td align="center" style="padding:20px;">
+              <table width="100%" class="mobile" cellspacing="0" cellpadding="0" border="0"  style="max-width: 600px;"><!-- Two Column Content -->
                 <tr>
-                  <td align="center" style="padding:20px;">
-                    <img src="images/FSM_Church.jpg" 
-                         alt="Flying Spaghetti Monster Church" 
-                         style="width:100%; max-width:400px; height:auto; display:block;">
-                  </td>
-                </tr>
+                <td align="left" class="block" role="presentation" width="48%"><!-- Left Column -->
+                  <div align="center">
+                    
+                      <!-- Hero Image -->
+                      <img src="images/FSM_Church.jpg" 
+                                  alt="Flying Spaghetti Monster Church" 
+                                  style="width:100%; max-width:300px; height:auto; display:block;">
+                  </div>
 
-                <!-- Body Text -->
-                <tr>
-                  <td align="center" style="padding:10px; font-size:16px; line-height:1.6; color:#444;">
-                    <p>Welcome, dear Pastafarian! You are now part of the official newsletter dedicated to spreading 
-                    the delicious word of our Lord and Savior, the Flying Spaghetti Monster.</p>
-                    <p>Join us in celebrating the holy sauce, the sacred meatballs, and the eternal colander of wisdom. 
-                    May your days be al dente and your nights full of marinara.</p>
-                  </td>
-                </tr>
+                </td> 
+                <td align="right" class="block" role="presentation" width="48%"><!-- Right Column -->
+                        <!-- Body Text -->
+                        <div align="center">
+                            
+                          <p>
+                          Welcome, dear Pastafarian! You are now part of the official newsletter dedicated to spreading 
+                                the delicious word of our Lord and Savior, the Flying Spaghetti Monster.
+                              </p>
 
-                <!-- Button -->
-                <tr>
-                  <td align="center" style="padding:30px;">
-                    <a href="https://en.wikipedia.org/wiki/Flying_Spaghetti_Monster" 
-                       style="background:#a52a2a; color:#ffffff; padding:12px 24px; text-decoration:none; border-radius:5px; font-size:16px;">
-                      Learn More About FSM
-                    </a>
-                  </td>
+                                <p>
+                                Join us in celebrating the holy sauce, the sacred meatballs, and the eternal colander of wisdom. 
+                                May your days be al dente and your nights full of marinara.
+                              </p>
+                        </div>
+                        
+                </td>               
                 </tr>
+              </table><!-- Two Column Content End -->
+            </td>
+            </tr>
 
-                <!-- Footer -->
-                <tr>
-                  <td align="center" style="padding:20px; font-size:12px; color:#888; border-top:1px solid #ddd;">
-                    <p>2025 The Pastafarian Church | 1234 Pasta Lane, Sauce City, CA 00000</p>
-                    <a href="https://github.com/Alexander-Boutselis/hw3_comp584?tab=readme-ov-file" 
-                       style="color:blue; text-decoration:underline;">
-                      Unsubscribe from His Noodly Grace
-                    </a>
-                  </td>
-                </tr>
-              <!--End of Pasta Table-->  
-              </table> 
-            </div>
+            <tr>
+            <td>
+              <table class="mobile" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation"><!-- Three Column Content -->
+              <tr>
+              <td class="block" align="left" width="33%">
+                  <div align="center">
+                    
+                  <p>
+                    Fight for your right to wear your religious headgear in official ID photos! 
+                  </p>
+                  <p>
+                      It's your constitutional right to wear religious headgear in your license photo. 
+                  </p>
+                  </div>
+                </td>
+
+                <td class="block" align="center" width="33%">
+                  <img src="images/License_Photo_Colander.png" 
+                              alt="Arizona ID Photo of a gentlman wearing a colander as a piece of religous headgear" 
+                              style="width:100%; max-width:300px; height:auto; display:block;">
+                </td>
+
+                <td class="block" align="right" width="33%">
+                  <div align="center"> 
+                    
+                    <p>
+                      For ex. Jews who wear yarmulkes don't have to call ahead and ask for special permission and neither do you!
+                    </p>
+                    <p>
+                      Just go in there and strut your stuff knowing you're protected under the law!!!
+                    </p>
+                  </div>
+                </td>
+                </table><!-- Three Column Content End -->
+                    
+              </td>               
+              </tr>
             
-            <!-------------------------- Discordianism Content Blocks -------------------------->
-            <div class="content-block discord-block">
-              <table role="discordianism" width="100%">
-                <!-- Logo -->
-                <tr>
-                  <td align="center" style="padding:20px;">
-                    <img src="images/Discordianism_banner.jpg" 
-                         alt="Banner showing if you read this you're an authorised pope of the Church of Erisian Discordianism" 
-                         style="width:100%; max-width:600px; display:block;">
-                  </td>
-                </tr>
-
-                <!-- Headline -->
-                <tr>
-                  <td align="center" style="padding:20px; font-size:26px; color:#a52a2a;">
-                    Fnord!
-                  </td>
-                </tr>
-
-                <!-- Hero Image -->
-                <tr>
-                  <td align="center" style="padding:20px;">
-                    <img src="images/discordianism_Symbol.jpg" 
-                         alt="Flying Spaghetti Monster Church" 
-                         style="width:100%; max-width:400px; height:auto; display:block;">
-                  </td>
-                </tr>
-
-                <!-- Body Text -->
-                <tr>
-                  <td align="center" style="padding:10px; font-size:16px; line-height:1.6; color:#444;">
-                    <p>Welcome, child of chaos! Discordianism teaches us that disorder is just another kind of order, and that the universe laughs at our seriousness. By recognizing Eris, Goddess of Confusion, we find truth in absurdity and wisdom in nonsense. Hail Eris! All Hail Discordia!</p>
-                    <p>Did you know you’re already a Pope? That’s right — every Discordian is automatically a genuine and authorized Pope of the Church of Eris. Wear your papal authority proudly, and remember: we Discordians must stick apart.</p>
-                  </td>
-                </tr>
-
+            <tr>
+            <td align="center" style="padding:30px;">
                 <!-- Button -->
-                <tr>
-                  <td align="center" style="padding:30px;">
-                    <a href="https://en.wikipedia.org/wiki/Flying_Spaghetti_Monster" 
-                       style="background:#a52a2a; color:#ffffff; padding:12px 24px; text-decoration:none; border-radius:5px; font-size:16px;">
-                      Learn More About FSM
-                    </a>
-                  </td>
-                </tr>
+              <a href="https://en.wikipedia.org/wiki/Flying_Spaghetti_Monster" style="background:#a52a2a; color:#ffffff; padding:12px 24px; text-decoration:none; border-radius:5px; font-size:16px;">
+                          Learn More About FSM
+                        </a>    
+            </td>               
+            </tr>
 
+            <tr>
+            <td align="center" style="padding:20px; font-size:12px; color:#888; border-top:1px solid #ddd;">
                 <!-- Footer -->
-                <tr>
-                  <td align="center" style="padding:20px; font-size:12px; color:#888; border-top:1px solid #ddd;">
-                    <p>2025 The Pastafarian Church | 1234 Pasta Lane, Sauce City, CA 00000</p>
-                    <a href="https://github.com/Alexander-Boutselis/hw3_comp584?tab=readme-ov-file" 
-                       style="color:blue; text-decoration:underline;">
-                      Unsubscribe from His Noodly Grace
-                    </a>
-                  </td>
-                </tr>
-              <!--End of Discord Table-->  
-              </table> 
-            </div>
-  
-            <!-------------------------- Dudeism Content Blocks -------------------------->
-            <div class="content-block dude-block">
-              <table border="1" width="100%">
-                <tr><td>Content for Dudeism</td></tr>
-              </table>
-            </div>
-          </td>
+              <p>2025 The Pastafarian Church | 1234 Pasta Lane, Sauce City, CA 00000</p>
+                        <a href="https://github.com/Alexander-Boutselis/hw3_comp584?tab=readme-ov-file" style="color:blue; text-decoration:underline;">
+                            Unsubscribe from His Noodly Grace
+                        </a>  
+            </td>               
+            </tr>
+          </table><!-- Content End-->
+        </td>
         </tr>
+      </table>
+  <!-- Inner Wrapper End --------------------------------------->
 
-          
-
-          
-
-          
-
-          
-
-          
-
-          
-        </div>
-        </table>
-        <!-- End Inner Table-->
-
-
-      </td>
+    </td>
     </tr>
   </table>
-  <!-- End Outer Table-->
+<!-- Outer Wrapper End ------------------------------------------->
 
-    
-
-</body>
+  </body>
 </html>
+
 
